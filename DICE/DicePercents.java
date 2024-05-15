@@ -20,7 +20,6 @@ public class DicePercents {
             percent1 = (counter7 + counter11);
             percent2 = (counter2 + counter3 + counter12);
             if (i == 100) {
-                System.out.println("under this one");
                 System.out.println("You rolled a 7 or 11 " + percent1 + "% of the time.");
                 System.out.println("You rolled a 2, 3, or 12 " + percent2 + "% of the time.");
             }
